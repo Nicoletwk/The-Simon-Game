@@ -14,6 +14,7 @@ $(".restart").click(function() {
   }
 });
 
+
 $(".btn").click(function() {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
